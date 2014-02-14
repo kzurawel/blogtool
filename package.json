@@ -1,0 +1,28 @@
+{
+  "name": "blogtool",
+  "version": "0.0.0",
+  "description": "A CLI app to help you blog",
+  "private": true,
+  "bin": {
+    "blogtool": "./bin/blogtool"
+  },
+  "scripts": {
+    "test": "mocha -R spec"
+  },
+  "author": {
+    "name": "Kevin Zurawel",
+    "email": "kzurawel@gmail.com",
+    "url": "http://arborwebsolutions.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kzurawel/blogtool"
+  },
+  "license": "MIT",
+  "bugs": "https://github.com/kzurawel/blogtool/issues",
+  "dependencies": {
+    "commander": "~2.0.0"
+  },
+  "devDependencies": {
+  }
+}
